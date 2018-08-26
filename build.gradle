@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'me.raatiniemi.sonar'
+version '0.0.1'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
