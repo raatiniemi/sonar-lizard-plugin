@@ -49,7 +49,7 @@ bintray {
 
     pkg {
         repo = 'maven'
-        name = 'sonar-plugin-core'
+        name = 'sonar-lizard-plugin'
         userOrg = user
         licenses = ['LGPL-3.0']
         labels = ['sonarqube']
